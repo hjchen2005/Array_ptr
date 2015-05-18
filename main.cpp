@@ -1,14 +1,12 @@
-#include <ctime>
+#include <cstdlib>
 #include <windows.h>
 #include "clear_array_index.h"
 
 using namespace std;
 
-static int Array[10] ={1,2,3,4,5,6,7,8,9,-1};
+static int Array[size] ={1,2,3,4,5,6,7,8,9,-1};
 
 int main() {
-    int size = 10;
-    // Start TIMER
     
     _int64 ctr1 = 0, ctr2 = 0, freq = 0;
     //int acc = 0;//, iter=0;
@@ -30,4 +28,3 @@ int main() {
     system("PAUSE");
     return 0;
 }
-
