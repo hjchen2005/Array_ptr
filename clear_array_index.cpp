@@ -1,4 +1,4 @@
-#include "clear_array_index.cpp"
+#include "clear_array_index.h"
 
 void ClearUsingIndex(int Array[],int size){
     int i;
